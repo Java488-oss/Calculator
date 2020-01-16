@@ -69,6 +69,21 @@
       <option name="presentableId" value="Default" />
       <updated>1578834097917</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1579163779797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579163779811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1579163830680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579163830680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -92,11 +107,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1579163769652">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1579163825956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579163769652" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579163825956" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1579163975677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579163975677" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578932551565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -133,10 +156,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="344" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1578835973466" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579163425916">
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579163975629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1579163425916" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1579163975629" />
     <state x="65" y="0" key="new project wizard" timestamp="1578844347992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
