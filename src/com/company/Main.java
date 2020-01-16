@@ -13,9 +13,7 @@ public class Main {
         RomanNumber rom = new RomanNumber();
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         String str = reader.readLine();
-
         String[] array = str.split(" ", 3);
 
         reader.close();
@@ -31,17 +29,22 @@ public class Main {
             }
             if (num1 > 0 && num1 <= 10 && num2 > 0 && num2 <= 10&&flag ) {
                 score.scoreInt(array, num1, num2);
-            } else {
-                throw new  NumberFormatException("A number less than 1 or greater than 10");
+            }
+            else {
+                System.out.println("Введеное число больше 10 или меньше 0");
             }
         } catch (NumberFormatException e){
             int temp = rom.main(array[0]);
             int temp1 = rom.main(array[2]);
+
                 if(temp > 0 && temp <= 10 && temp1 > 0 && temp1 <= 10){
                     score.scoreRom(array, temp, temp1);
                 }
+                else if(flag==false){
+                    throw new  NumberFormatException("Вы ввели не верную конструкцию");
+                }
                 else {
-                    System.out.println("A number less than 1 or greater than 10");
+                    System.out.println("Введеное число больше X или меньше I");
                 }
         }
     }
