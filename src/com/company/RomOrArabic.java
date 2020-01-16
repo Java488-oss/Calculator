@@ -1,9 +1,9 @@
 package com.company;
 
 public class RomOrArabic extends Main {
-    static int numbers[]  = {1, 4, 5, 9, 10, 50, 100, 500, 1000 };
+   private static int numbers[]  = {1, 4, 5, 9, 10, 50, 100, 500, 1000 };
 
-    static String letters[]  = { "I", "IV", "V", "IX", "X", "L", "C", "D", "M"};
+   private static String letters[]  = { "I", "IV", "V", "IX", "X", "L", "C", "D", "M"};
 
     public static void convertIntegerToRoman(int number)
     {

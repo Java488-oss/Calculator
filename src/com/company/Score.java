@@ -1,7 +1,7 @@
 package com.company;
 
 public class Score{
-    static  RomOrArabic rOa = new RomOrArabic();
+  private   static  RomOrArabic rOa = new RomOrArabic();
 
     public void scoreInt(String[] array,int one,int two)throws Exception {
 
