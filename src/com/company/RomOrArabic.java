@@ -34,15 +34,12 @@ public class RomOrArabic extends Main {
     public static void convertIntegerToRoman(int number)
     {
         String romanValue = "";
-
         int N = number;
 
-        while ( N > 0 )
-        {
+        while ( N > 0 ) {
             for (int i = 0; i < numbers.length; i++)
             {
-                if ( N < numbers[i] )
-                {
+                if ( N < numbers[i] ){
                     N -= numbers[i-1];
                     romanValue += letters[i-1];
                     break;
