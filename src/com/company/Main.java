@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Score score = new Score();
-        RomanNumber rom = new RomanNumber();
+        RomOrArabic rOm = new RomOrArabic();
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String str = reader.readLine();
@@ -34,8 +34,8 @@ public class Main {
                 System.out.println("Введеное число больше 10 или меньше 0");
             }
         } catch (NumberFormatException e){
-            int temp = rom.main(array[0]);
-            int temp1 = rom.main(array[2]);
+            int temp = rOm.convertRomaToInteger(array[0]);
+            int temp1 = rOm.convertRomaToInteger(array[2]);
 
                 if(temp > 0 && temp <= 10 && temp1 > 0 && temp1 <= 10){
                     score.scoreRom(array, temp, temp1);
