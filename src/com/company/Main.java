@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;;
 
 public class Main {
-    private static int num1;
-    private static int num2;
     private static  boolean flag=false;
 
     public static void main(String[] args) throws Exception {
@@ -19,15 +17,15 @@ public class Main {
         reader.close();
 
         try{
-            num1=Integer.parseInt(array[0]);
-            num2=Integer.parseInt(array[2]);
+            int num1=Integer.parseInt(array[0]);
+            int num2=Integer.parseInt(array[2]);
             for(int i=0;i<10;i++){
                 if(num1==i&&num2==i){
                     flag=true;
                 }
             }
 
-            if (num1 > 0 && num1 <= 10 && num2 > 0 && num2 <= 10&&flag ) {
+            if (num1 > 0 || num1 <= 10 && num2 > 0 || num2 <= 10 && flag) {
                 score.scoreInt(array, num1, num2);
             }
             else {
